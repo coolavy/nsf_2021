@@ -72,7 +72,7 @@ else:
         for item_detail in item_details:
             print(item_detail)
         print("-" * 60)
-        print(f"{'{:<46}'.format('Sub total:')} $  {sub_total:.2f}")
+        print(f"{'{:<45}'.format('Sub total:')} $  {sub_total:.2f}")
         print(f"{'{:<36}'.format('Tax:')} @ 0.05% = $  {sub_total * 0.05:.2f}")
         print("-" * 60)
         print(f"{'{:<46}'.format('Total:')} $  {total:.2f}")
