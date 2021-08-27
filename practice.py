@@ -32,11 +32,12 @@
 #     absulote = n - n * 2
 #     print(f"The absulote of {n} is {absulote}.")
 
-number = int(input("Enter a number: "))
+# number = int(input("Enter a number: "))
 
-if number < 0:
-    print(f"{number} is negitave.")
-elif number > 0:
-    print(f"{number} is positive.")
-else:
-    print(f"{number} is 0.")
+# if number < 0:
+#     print(f"{number} is negitave.")
+# elif number > 0:
+#     print(f"{number} is positive.")
+# else:
+#     print(f"{number} is 0.")
+
