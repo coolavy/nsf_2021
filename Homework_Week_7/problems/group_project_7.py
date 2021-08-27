@@ -30,7 +30,7 @@ def initialize():
         line = line.strip()
         line = line.split(',')
         print(line)
-        add_new_product(line[0], line[1], line[2])
+        add_new_product(line[0], line[1], float(line[2]))
     print(item_code)
     print(item_price)
     opening_file.close()
